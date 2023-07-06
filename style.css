@@ -1,0 +1,51 @@
+.div1{
+    width: 70vw;
+    border: 1px solid darkblue;
+    height: 600px;
+    margin: auto;
+}
+
+#span1{
+    font-size: 40px;
+    margin-left: 10px;
+}
+#span2{
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+/* .reset {
+    background-color: red;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+} */
+.div1 .div2 {
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 5%;
+    height: 10%;
+    background-color: blue;
+   
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div1 .div3 {
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 5%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(5, 15%);
+    gap: 10px;
+    background-color: aliceblue;
+    
+    /* align-items: center; */
+    justify-content: space-around;
+    /* border-radius: 30px; */
+    
+}
